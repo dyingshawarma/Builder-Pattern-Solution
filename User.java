@@ -1,10 +1,10 @@
 public class User {
-    private String firstName;
-    private String lastName;
-    private String email;
-    private String address;
-    private String phone;
-    private int age;
+    private final String firstName;
+    private final String lastName;
+    private final String email;
+    private final String address;
+    private final String phone;
+    private final int age;
 
     private User(UserBuilder builder) {
         this.firstName = builder.firstName;
